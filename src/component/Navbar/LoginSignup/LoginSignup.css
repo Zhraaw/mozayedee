@@ -1,0 +1,176 @@
+.modal-content {
+    background: linear-gradient(135deg, #f6f6f6, #eaeaea);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 1s ease-in-out;
+ 
+}
+
+.rotate {
+    transform: scale(1.05);
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    position: relative;
+}
+
+
+.text {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+
+.input input {
+    font-size: 16px;
+}
+
+
+.underline {
+    width: 50px;
+    height: 5px;
+    background: #000;
+    border-radius: 20px;
+}
+
+
+.inputs {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.input {
+    display: flex;
+    align-items: center;
+    background: #eaeaea;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  
+}
+
+
+.input img {
+    margin: 0 15px;
+}
+
+
+.input input {
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+}
+
+
+.submit-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    background: linear-gradient(135deg, #40739e, #40739e);
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+
+.submit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.gray {
+    background: #EAEAEA;
+    color: #676767;
+}
+
+
+.close-button {
+    position: absolute;
+    top: -45px;
+    right: -40px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+
+}
+
+
+.close-button:hover {
+    background-color: #ddd8d8;
+
+
+}
+
+.toggle-action {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+}
+
+
+.password-eye-icon {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    width: 15px;
+    /* اندازه آیکون */
+    height: auto;
+    color: #000000;
+    /* رنگ آیکون */
+}
+
+@media (max-width: 600px) {
+    .text {
+        font-size: 28px;
+    }
+
+    .submit-container {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .close-button {
+        top: 10px;
+        right: 10px;
+    }
+}

@@ -1,0 +1,46 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 20px;
+    background-image: url('data:image/svg+xml,%3Csvg%20width%3D%22100%25%22%20height%3D%22100%25%22%20id%3D%22svg%22%20viewBox%3D%220%200%201440%20390%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20class%3D%22transition%20duration-300%20ease-in-out%20delay-150%22%3E%3Cpath%20d%3D%22M%200%2C400%20L%200%2C100%20C%20107.02392344497608%2C84%20214.04784688995215%2C68%20305%2C78%20C%20395.95215311004785%2C88%20470.83253588516754%2C124%20560%2C130%20C%20649.1674641148325%2C136%20752.6220095693778%2C112%20861%2C100%20C%20969.3779904306222%2C88%201082.6794258373207%2C88%201180%2C90%20C%201277.3205741626793%2C92%201358.6602870813397%2C96%201440%2C100%20L%201440%2C400%20L%200%2C400%20Z%22%20stroke%3D%22none%22%20stroke-width%3D%220%22%20fill%3D%22%237bdcb5%22%20fill-opacity%3D%220.53%22%20class%3D%22transition-all%20duration-300%20ease-in-out%20delay-150%20path-0%22%20transform%3D%22rotate(-180%20720%20200)%22%3E%3C/path%3E%3Cpath%20d%3D%22M%200%2C400%20L%200%2C233%20C%20107.67464114832532%2C217.69856459330143%20215.34928229665064%2C202.39712918660285%20293%2C205%20C%20370.65071770334936%2C207.60287081339715%20418.27751196172255%2C228.11004784688993%20523%2C244%20C%20627.7224880382774%2C259.8899521531101%20789.5406698564593%2C271.1626794258374%20900%2C256%20C%201010.4593301435407%2C240.83732057416265%201069.5598086124403%2C199.23923444976077%201151%2C191%20C%201232.4401913875597%2C182.76076555023923%201336.22009569378%2C207.8803827751196%201440%2C233%20L%201440%2C400%20L%200%2C400%20Z%22%20stroke%3D%22none%22%20stroke-width%3D%220%22%20fill%3D%22%237bdcb5%22%20fill-opacity%3D%221%22%20class%3D%22transition-all%20duration-300%20ease-in-out%20delay-150%20path-1%22%20transform%3D%22rotate(-180%20720%20200)%22%3E%3C/path%3E%3C/svg%3E');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    z-index: 1000; 
+}
+
+
+.body-container {
+    margin-top: 100px;
+}
+
+
+.navbar h1 {
+    font-size: 25px;
+    color: #000; 
+    font-weight: bold;
+    font-family: 'Lora', sans-serif; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    margin-left: 90px;
+}
+
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 20px; 
+    }
+
+
+    h1 {
+        font-size: 20px; 
+        text-align: center;
+        width: 100%; 
+    }
+}
+

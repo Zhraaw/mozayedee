@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  height: 100vh; 
+  
+}
+
+.container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 90px; 
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto; 
+}
+
+
+
+

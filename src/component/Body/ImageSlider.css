@@ -1,0 +1,45 @@
+.slider-container {
+  position: relative;
+  width: 100%; 
+  height: 100%; 
+
+margin-top: 60px;
+}
+
+.slider img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover; 
+}
+
+.slider-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 20px; 
+ 
+}
+
+.slider-buttons span {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.8);
+  user-select: none;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.slider-buttons span:hover {
+  color: rgba(255, 255, 255, 1); 
+  transform: scale(1.2); 
+}
+
+.prev {
+  margin-left: 65px; 
+}
+
+.next {
+  margin-right: 65px; 
+}
